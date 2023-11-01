@@ -38,13 +38,14 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px); /* Restamos la altura del nav */
-    margin: 2rem;
+    height: calc(100vh - 60px);
+    margin: 4rem;
     background-color: #E8E8E8;
 }
-.card{
+
+.card {
     width: 10rem;
-    height: 20rem;
+    height: auto;
     background-color: white;
     border: 1px solid black;
     margin: 10px;
@@ -52,4 +53,28 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.card h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.card .types {
+    display: flex;
+    justify-content: center;
+}
+
+.card .type {
+    background-color: #E8E8E8;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 5px;
+    text-align: center;
 }
