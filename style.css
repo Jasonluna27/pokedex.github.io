@@ -1,11 +1,14 @@
 /* Estilos básicos del menú */
 nav {
+    position: fixed; /* Asegura que el nav esté siempre en la misma posición */
+    top: 0; /* Ajusta la posición en el eje Y */
+    left: 0; /* Ajusta la posición en el eje X */
+    right: 0; /* Estira el nav para que ocupe toda la pantalla */
     background-color: yellow; /* Fondo amarillo */
     text-align: center; /* Alinea el texto al centro */
     padding: 10px; /* Espaciado interno arriba y abajo */
+    z-index: 1000; /* Posiciona el nav por encima de los demás elementos */
 }
-
-
 
 nav ul {
     list-style: none;
@@ -18,7 +21,7 @@ nav li {
     margin-right: 20px;
 }
 
-nav a{
+nav a {
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -27,5 +30,26 @@ nav a{
 /* Estilos cuando el mouse está sobre los enlaces */
 nav a:hover {
     color: white;
-    font-size: 1.2em; 
+    font-size: 1.2em;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Restamos la altura del nav */
+    margin: 2rem;
+    background-color: #E8E8E8;
+}
+.card{
+    width: 10rem;
+    height: 20rem;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
