@@ -35,28 +35,35 @@ nav a:hover {
 
 body {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 60px);
     margin: 4rem;
     background-color: #E8E8E8;
+}
+
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas iguales */
+    gap: 10px; /* Espacio entre las cartas */
+    justify-content: center;
+    align-content: flex-start; /* Alinea las cartas arriba */
 }
 
 .card {
     width: 10rem;
     height: auto;
-    background-color: white;
+    background-color: #b8aaaa;
     border: 1px solid black;
-    margin: 10px;
+    border-radius: 20px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .card h2 {
-    text-align: center;
     margin: 10px 0;
 }
 
@@ -72,7 +79,7 @@ body {
 }
 
 .card .type {
-    background-color: #E8E8E8;
+    background-color: white;
     border: 1px solid black;
     padding: 5px 10px;
     margin: 5px;

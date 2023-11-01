@@ -1,41 +1,56 @@
 $(document).ready(function () {
     const cardContainer = document.getElementById("card-container");
-    const numberOfPokemon = 10; // Número de cartas que deseas mostrar
+    const numberOfPokemon = 1051; // Número de cartas que deseas mostrar
 
     // Realizar una solicitud a la PokeAPI para obtener los primeros N pokemon
     $.get(`https://pokeapi.co/api/v2/pokemon/?limit=${numberOfPokemon}`, function (data) {
         const pokemonList = data.results;
 
-        // Iterar a través de la lista de pokemon y crear una carta para cada uno
-        pokemonList.forEach(function (pokemon, index) {
-            const card = document.createElement("div");
-            card.className = "card";
+        // Crear una matriz para almacenar los detalles de los Pokémon
+        const pokemonDetails = [];
 
-            // Obtener la información detallada de cada pokemon
+        // Iterar a través de la lista de Pokémon y obtener sus detalles
+        pokemonList.forEach(function (pokemon, index) {
             $.get(pokemon.url, function (data) {
                 const name = data.name;
                 const id = data.id;
                 const type = data.types[0].type.name;
                 const imageUrl = data.sprites.front_default;
 
-                // Crear el contenido de la carta
-                card.innerHTML = `
-                    <h2>${name}</h2>
-                    <p>Número: ${id}</p>
-                    <img src="${imageUrl}" alt="${name}">
-                    <div class="types">
-                        <div class="type">${type}</div>
-                    </div>
-                `;
+                // Almacenar los detalles en un objeto
+                const pokemonInfo = {
+                    id,
+                    name,
+                    type,
+                    imageUrl,
+                };
 
-                // Agregar la carta al contenedor
-                cardContainer.appendChild(card);
+                pokemonDetails.push(pokemonInfo);
 
-                // Si hemos agregado todas las cartas, muestra el resultado
-                if (index === numberOfPokemon ) {
-                    // Puedes realizar acciones adicionales aquí si es necesario
+                // Si hemos obtenido los detalles de todos los Pokémon
+                if (pokemonDetails.length === numberOfPokemon) {
+                    // Ordenar los Pokémon por su número ascendente
+                    pokemonDetails.sort((a, b) => a.id - b.id);
+
+                    // Crear cartas en orden ascendente
+                    pokemonDetails.forEach(pokemonInfo => {
+                        const card = document.createElement("div");
+                        card.className = "card";
+
+                        card.innerHTML = `
+                            <h2>${pokemonInfo.name}</h2>
+                            <p>Número: ${pokemonInfo.id}</p>
+                            <img src="${pokemonInfo.imageUrl}" alt="${pokemonInfo.name}">
+                            <div class="types">
+                                <div class="type">${pokemonInfo.type}</div>
+                            </div>
+                        `;
+
+                        cardContainer.appendChild(card);
+                    });
                 }
             });
         });
     });
+    
 });
