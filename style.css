@@ -53,7 +53,6 @@ body {
 .card {
     width: 10rem;
     height: auto;
-    background-color: #b8aaaa;
     border: 1px solid black;
     border-radius: 20px;
     padding: 10px;
@@ -78,10 +77,12 @@ body {
     justify-content: center;
 }
 
-.card .type {
-    background-color: white;
-    border: 1px solid black;
-    padding: 5px 10px;
-    margin: 5px;
-    text-align: center;
-}
+/* Colores de fondo para tipos de Pokémon */
+.card.normal { background-color: #b8aaaa; }
+.card.fire { background-color: #FF5733; }
+.card.water { background-color: #4E90D5; }
+
+.card.grass{ background-color: #3BB805;}
+
+.card.bug{ background-color: #7df64a;}
+.card.poison{ background-color: #aa03d4;}

@@ -2,7 +2,7 @@ $(document).ready(function () {
     const cardContainer = document.getElementById("card-container");
     const numberOfPokemon = 1051; // Número de cartas que deseas mostrar
 
-    // Realizar una solicitud a la PokeAPI para obtener los primeros N pokemon
+    // Realizar una solicitud a la PokeAPI para obtener los primeros N Pokémon
     $.get(`https://pokeapi.co/api/v2/pokemon/?limit=${numberOfPokemon}`, function (data) {
         const pokemonList = data.results;
 
@@ -37,6 +37,9 @@ $(document).ready(function () {
                         const card = document.createElement("div");
                         card.className = "card";
 
+                        // Agregar una clase que corresponde al tipo de Pokémon
+                        card.classList.add(pokemonInfo.type);
+
                         card.innerHTML = `
                             <h2>${pokemonInfo.name}</h2>
                             <p>Número: ${pokemonInfo.id}</p>
@@ -52,5 +55,4 @@ $(document).ready(function () {
             });
         });
     });
-    
 });
