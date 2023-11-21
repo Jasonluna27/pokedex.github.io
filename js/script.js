@@ -1,3 +1,8 @@
+// Función para capitalizar la primera letra de una cadena
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 $(document).ready(function () {
     const cardContainer = document.getElementById("card-container");
     const numberOfPokemon = 1051; // Número de cartas que deseas mostrar
@@ -12,7 +17,7 @@ $(document).ready(function () {
         // Iterar a través de la lista de Pokémon y obtener sus detalles
         pokemonList.forEach(function (pokemon, index) {
             $.get(pokemon.url, function (data) {
-                const name = data.name;
+                const name = capitalizeFirstLetter(data.name); // Capitalizar el nombre
                 const id = data.id;
                 const type = data.types[0].type.name;
                 const imageUrl = data.sprites.front_default;
