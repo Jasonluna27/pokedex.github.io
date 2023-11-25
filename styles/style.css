@@ -242,3 +242,51 @@ th {
 .strengths, .weaknesses {
     font-style: italic;
 }
+
+@media (max-width: 932px) {
+    #search-panel {
+        background-color: #FFD700;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 60px;
+        z-index: 999;
+        margin-bottom: 100px;
+        width: 100%;  
+    }
+    .card {
+        width: 8rem; 
+        height: auto;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #card-container {
+        margin-top: 8rem;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 30px; 
+        justify-content: center;
+        align-content: flex-start; 
+    }
+    .result-container {
+        margin-top: 4rem;
+        padding: 8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 5rem;
+    }
+}
