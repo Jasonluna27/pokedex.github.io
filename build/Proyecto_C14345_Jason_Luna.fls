@@ -1,7 +1,7 @@
-PWD c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna
+PWD c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io
 INPUT C:\Users\Jason Luna\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\Proyecto_C14345_Jason_Luna.tex
-OUTPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.log
+INPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\Proyecto_C14345_Jason_Luna.tex
+OUTPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.log
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -48,10 +48,10 @@ INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\p
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.aux
-INPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.aux
-INPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.aux
-OUTPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.aux
+INPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.aux
+INPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.aux
+INPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.aux
+OUTPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.aux
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -68,11 +68,11 @@ INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcs
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-OUTPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.pdf
+OUTPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.pdf
 INPUT C:\Users\Jason Luna\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.toc
-INPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.toc
-INPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.toc
+INPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.toc
+INPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.toc
+INPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.toc
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -81,10 +81,73 @@ INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-OUTPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.toc
+OUTPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.toc
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.aux
+INPUT .\img\homepage.png
+INPUT .\img\homepage.png
+INPUT .\img\homepage.png
+INPUT .\img\homepage.png
+INPUT .\img\homepage.png
+INPUT .\img\homepage.png
+INPUT .\img\homepage.png
+INPUT .\img\typepage.png
+INPUT .\img\typepage.png
+INPUT .\img\typepage.png
+INPUT .\img\typepage.png
+INPUT .\img\typepage.png
+INPUT .\img\typepage.png
+INPUT .\img\typepage.png
+INPUT .\img\searchpage1.png
+INPUT .\img\searchpage1.png
+INPUT .\img\searchpage1.png
+INPUT .\img\searchpage1.png
+INPUT .\img\searchpage1.png
+INPUT .\img\searchpage1.png
+INPUT .\img\searchpage1.png
+INPUT .\img\searchpage2.png
+INPUT .\img\searchpage2.png
+INPUT .\img\searchpage2.png
+INPUT .\img\searchpage2.png
+INPUT .\img\searchpage2.png
+INPUT .\img\searchpage2.png
+INPUT .\img\searchpage2.png
+INPUT .\img\searchpage3.png
+INPUT .\img\searchpage3.png
+INPUT .\img\searchpage3.png
+INPUT .\img\searchpage3.png
+INPUT .\img\searchpage3.png
+INPUT .\img\searchpage3.png
+INPUT .\img\searchpage3.png
+INPUT .\img\comparepage.png
+INPUT .\img\comparepage.png
+INPUT .\img\comparepage.png
+INPUT .\img\comparepage.png
+INPUT .\img\comparepage.png
+INPUT .\img\comparepage.png
+INPUT .\img\comparepage.png
+INPUT .\img\controlversion.png
+INPUT .\img\controlversion.png
+INPUT .\img\controlversion.png
+INPUT .\img\controlversion.png
+INPUT .\img\controlversion.png
+INPUT .\img\controlversion.png
+INPUT .\img\controlversion.png
+INPUT .\img\deploy.png
+INPUT .\img\deploy.png
+INPUT .\img\deploy.png
+INPUT .\img\deploy.png
+INPUT .\img\deploy.png
+INPUT .\img\deploy.png
+INPUT .\img\deploy.png
+INPUT .\img\media.png
+INPUT .\img\media.png
+INPUT .\img\media.png
+INPUT .\img\media.png
+INPUT .\img\media.png
+INPUT .\img\media.png
+INPUT .\img\media.png
+INPUT c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.aux
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb

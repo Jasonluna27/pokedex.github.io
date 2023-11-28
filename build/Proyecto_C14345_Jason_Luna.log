@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.21)  16 OCT 2023 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.21)  28 NOV 2023 14:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Jason Luna/Documents/Proyecto_C14345_Jason_Luna/Proyecto_C14345_Jason_Luna.tex"
-(c:/Users/Jason Luna/Documents/Proyecto_C14345_Jason_Luna/Proyecto_C14345_Jason_Luna.tex
+**"c:/Users/Jason Luna/Documents/Proyecto_Plataformas_Jason_Luna/pokedexjason.github.io/Proyecto_C14345_Jason_Luna.tex"
+(c:/Users/Jason Luna/Documents/Proyecto_Plataformas_Jason_Luna/pokedexjason.github.io/Proyecto_C14345_Jason_Luna.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
 (C:\Users\Jason Luna\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -93,7 +93,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count199
 \l__pdf_internal_box=\box51
-) (c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.aux
+) (c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -170,7 +170,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) [1
 
-{C:/Users/Jason Luna/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.toc
+{C:/Users/Jason Luna/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -184,21 +184,76 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `Proyecto_C14345_Jason_Luna.toc'.
 
  [1]
-Overfull \hbox (23.57036pt too wide) in paragraph at lines 33--37
-\OT1/cmr/m/n/12 Para es-te pro-yec-to se har^^Sa uso de tec-no-log^^S^^Pas co-mo HTML,CSS,JavaScript,ReactJs,Github,GithubPages
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 33--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
 
  []
 
-[2] [3] [4] (c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.aux
+[2] [3]
+<img/homepage.png, id=19, 1029.8475pt x 450.9347pt>
+File: img/homepage.png Graphic file (type png)
+<use img/homepage.png>
+Package pdftex.def Info: img/homepage.png  used on input line 107.
+(pdftex.def)             Requested size: 250.24199pt x 109.56827pt.
+ [4]
+<img/typepage.png, id=24, 1037.37563pt x 447.92343pt>
+File: img/typepage.png Graphic file (type png)
+<use img/typepage.png>
+Package pdftex.def Info: img/typepage.png  used on input line 116.
+(pdftex.def)             Requested size: 250.24199pt x 108.0506pt.
+ [5 <./img/homepage.png> <./img/typepage.png>]
+<img/searchpage1.png, id=30, 627.84563pt x 304.88907pt>
+File: img/searchpage1.png Graphic file (type png)
+<use img/searchpage1.png>
+Package pdftex.def Info: img/searchpage1.png  used on input line 126.
+(pdftex.def)             Requested size: 150.14671pt x 72.90968pt.
+<img/searchpage2.png, id=31, 811.53188pt x 401.24907pt>
+File: img/searchpage2.png Graphic file (type png)
+<use img/searchpage2.png>
+Package pdftex.def Info: img/searchpage2.png  used on input line 127.
+(pdftex.def)             Requested size: 150.14671pt x 74.23602pt.
+<img/searchpage3.png, id=32, 907.13907pt x 398.99063pt>
+File: img/searchpage3.png Graphic file (type png)
+<use img/searchpage3.png>
+Package pdftex.def Info: img/searchpage3.png  used on input line 128.
+(pdftex.def)             Requested size: 150.14671pt x 66.0376pt.
+<img/comparepage.png, id=33, 743.77875pt x 446.41782pt>
+File: img/comparepage.png Graphic file (type png)
+<use img/comparepage.png>
+Package pdftex.def Info: img/comparepage.png  used on input line 137.
+(pdftex.def)             Requested size: 250.24199pt x 150.1929pt.
+<img/controlversion.png, id=34, 617.30624pt x 418.56375pt>
+File: img/controlversion.png Graphic file (type png)
+<use img/controlversion.png>
+Package pdftex.def Info: img/controlversion.png  used on input line 147.
+(pdftex.def)             Requested size: 250.24199pt x 169.67705pt.
+ [6 <./img/searchpage1.png> <./img/searchpage2.png> <./img/searchpage3.png> <./img/comparepage.png>]
+<img/deploy.png, id=43, 1017.8025pt x 381.67593pt>
+File: img/deploy.png Graphic file (type png)
+<use img/deploy.png>
+Package pdftex.def Info: img/deploy.png  used on input line 158.
+(pdftex.def)             Requested size: 250.24199pt x 93.84047pt.
+ [7 <./img/controlversion.png> <./img/deploy.png>]
+<img/media.png, id=49, 723.45282pt x 429.85594pt>
+File: img/media.png Graphic file (type png)
+<use img/media.png>
+Package pdftex.def Info: img/media.png  used on input line 168.
+(pdftex.def)             Requested size: 250.24199pt x 148.68744pt.
+
+Underfull \hbox (badness 2600) in paragraph at lines 184--185
+[]\OT1/cmr/m/it/12 HTML: Hy-per-Text Mar-kup Lan-gua-ge | MDN. (2023, July 17). MDN Web Docs.
+ []
+
+[8 <./img/media.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+[]\OT1/cmr/m/it/12 CSS: Cas-ca-ding Sty-le Sheets | MDN. (2023, July 22). MDN Web Docs.
+ []
+
+[9] (c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -208,17 +263,17 @@ L3 programming layer <2023-08-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3335 strings out of 475503
- 57021 string characters out of 5759438
- 1925248 words of memory out of 5000000
- 24599 multiletter control sequences out of 15000+600000
+ 3416 strings out of 475503
+ 59242 string characters out of 5759438
+ 1926248 words of memory out of 5000000
+ 24680 multiletter control sequences out of 15000+600000
  563926 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,65p,548b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,779b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Jason Luna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jason Luna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Jason Luna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jason Luna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jason Luna/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "c:\Users\Jason Luna\Documents\Proyecto_C14345_Jason_Luna\build\Proyecto_C14345_Jason_Luna.pdf" (5 pages, 77463 bytes).
+Output written on "c:\Users\Jason Luna\Documents\Proyecto_Plataformas_Jason_Luna\pokedexjason.github.io\build\Proyecto_C14345_Jason_Luna.pdf" (10 pages, 488319 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

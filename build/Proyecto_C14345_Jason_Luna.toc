@@ -10,4 +10,14 @@
 \contentsline {subsection}{\numberline {5.4}Estructura del proyecto: }{4}{}%
 \contentsline {subsection}{\numberline {5.5}Metodología de desarrollo: }{4}{}%
 \contentsline {subsection}{\numberline {5.6}Tecnologías: }{4}{}%
-\contentsline {subsection}{\numberline {5.7}title}{4}{}%
+\contentsline {subsection}{\numberline {5.7}Limitaciones:}{4}{}%
+\contentsline {section}{\numberline {6}Desarrollo:}{5}{}%
+\contentsline {subsection}{\numberline {6.1}Página principal:}{5}{}%
+\contentsline {subsection}{\numberline {6.2}Página Tabla de Tipos:}{5}{}%
+\contentsline {subsection}{\numberline {6.3}Página de Busqueda:}{6}{}%
+\contentsline {subsection}{\numberline {6.4}Página de Comparación:}{6}{}%
+\contentsline {subsection}{\numberline {6.5}Control de versiones: }{7}{}%
+\contentsline {subsection}{\numberline {6.6}Despliegue:}{7}{}%
+\contentsline {subsection}{\numberline {6.7}Diseño Responsive: }{8}{}%
+\contentsline {section}{\numberline {7}Conclusiones:}{8}{}%
+\contentsline {section}{\numberline {8}Bibliografía:}{9}{}%
